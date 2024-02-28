@@ -1,0 +1,43 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+.navbar{height: 70px;
+ background-color: rgb(255, 250, 245);}
+.carousel{margin-top: 70px;}
+.btn{border: 2px solid rgb(241, 223, 205);
+transition: 0.5s;
+}
+.fa-shopping-cart{color:rgb(241, 202, 162);}
+.row{margin: auto;}
+
+.fa-heart {font-size: 19px;
+    visibility: hidden;
+color: gainsboro;
+transition: 0.5s;
+margin-right: -29px;
+}
+.fa-star{color: gainsboro;
+    transition: 0.5s;
+    margin-right: -29px;
+ visibility: hidden; }
+.btn:hover{background-color: rgb(212, 182, 142);
+color: rgb(252, 252, 239);
+} 
+.action:hover .fa-heart{visibility: visible;
+    margin-right: 2px;}
+.action:hover .fa-star{visibility: visible;
+    margin-right: 2px;}
+.fa-heart:hover{color: red;}
+.fa-star:hover{color: yellow}
+/* //////////////////////////// */
+#you{border: 2px solid rgb(241, 202, 162);
+margin-bottom: 10px;
+padding: 10px;
+}
+#prices{border: 2px solid rgb(241, 202, 162);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    }
+
+
